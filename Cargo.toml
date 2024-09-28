@@ -1,0 +1,11 @@
+[package]
+name = "iced-hello-world"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# iced = { version = "0.13.1", default-features = false, features = ["wgpu"] }
+iced = { path = "../iced", features = ["wgpu", "debug"], default-features = false }
+
+[profile.release]
+debug = true
