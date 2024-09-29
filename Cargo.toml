@@ -5,8 +5,8 @@ edition = "2021"
 
 [dependencies]
 # iced = { version = "0.13.1", default-features = false, features = ["wgpu"] }
-# iced = { git = "https://github.com/iced-rs/iced", default-features = false, features = ["wgpu"] }
-iced = { path = "../iced", default-features = false, features = ["wgpu"] }
+iced = { git = "https://github.com/iced-rs/iced", default-features = false, features = ["wgpu"] }
+# iced = { path = "../iced", default-features = false, features = ["wgpu"] }
 
 [profile.release]
 debug = true
