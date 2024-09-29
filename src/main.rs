@@ -1,3 +1,7 @@
+#![allow(unused_imports)]
+#![allow(unused_variables)]
+#![allow(dead_code)]
+
 use iced::widget::{button, text};
 use iced::Element;
 
@@ -17,5 +21,5 @@ fn update(counter: &mut u64, message: Message) {
 }
 
 fn view(counter: &u64) -> Element<Message> {
-    button(text(counter)).on_press(Message::Increment).into()
+    button("").on_press(Message::Increment).into()
 }
